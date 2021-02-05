@@ -1,2 +1,4 @@
+Modelo_final filter=lfs diff=lfs merge=lfs -text
+tokenizer filter=lfs diff=lfs merge=lfs -text
 *Modelo_final filter=lfs diff=lfs merge=lfs -text
 *tokenizer filter=lfs diff=lfs merge=lfs -text
