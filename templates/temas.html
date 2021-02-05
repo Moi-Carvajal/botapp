@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+  
+<html> 
+<head> 
+    <title>For loop</title> 
+</head> 
+<body> 
+  
+<ol> 
+<!-- For loop logic of jinja template -->
+<li> TEMA   :   ETIQUETA </li>
+{%for i in range(0, len)%} 
+
+    <li>{{lista_temas[i]}} :  {{lista_etiqueta[i]}} </li>
+{%endfor%} 
+  
+</ol> 
+  
+</body> 
+</html> 
